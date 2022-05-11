@@ -1,0 +1,12 @@
+<div>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let i of cartcount">
+      <app-cart-list></app-cart-list>
+    </li>
+  </ul>
+</div>
+
+
+<button type="button" class="btn btn-outline-primary btn-block btn-sm">
+  <span>Total</span> : <strong>{{ 500 | currency: 'INR' }}</strong>
+</button>
