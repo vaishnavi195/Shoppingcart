@@ -6,7 +6,6 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./productlist.component.css'],
 })
 export class ProductlistComponent implements OnInit {
-  @Input() cartcount;
   constructor() {}
 
   ngOnInit() {}
